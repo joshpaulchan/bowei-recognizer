@@ -4,15 +4,23 @@
 
 ### Installation
 
-```bash
-$ pip install -r requirements.txt
-```
+You need to make sure you have these packages installed and working on your computer:
+
+* OpenCV3
+* Python3.x
+
+and their supporting packages:
+
+* matplotlib
+* numpy
+* pillow
+* ...
 
 <small>**Note:** the following only applies on a UNIX-based system</small>  
 Optionally, you may want to grant execution permissions to the script like so:
 
 ```bash
-$ pip install -r requirements.txt
+$ chmod +x ./main.py
 ```
 
 so that you can use the system without prefacing it with `python`:
